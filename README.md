@@ -2,33 +2,33 @@ read me
 
 vbproject.vbcomponents.codemodule を操作します
 
-module:abc_sub
-（対象モジュール：abc_key）
+module:abc_sub <br/>
+（対象モジュール：abc_key）<br/>
 
-setkey(var)：
-変数の値を変更します.
-setkey("変数名,変数の型,変数の値").
-※var の引数は、ダブルクォーテーションで囲みます.
+setkey(var)：<br/>
+変数の値を変更します <br/>
+setkey("変数名,変数の型,変数の値") <br/>
+※var の引数は、ダブルクォーテーションで囲みます <br/>
 
-rowcount：
-文字ジュール内の最終行を返します.
+rowcount：<br/>
+文字ジュール内の最終行を返します <br/>
 
-checkkey(var)：
-指定した変数の有無を確認します.
-checkkey("変数名").
+checkkey(var)：<br/>
+指定した変数の有無を確認します <br/>
+checkkey("変数名") <br/>
 
-getkey(var,n)：
-指定した変数の行、または、値を返します.
-getkey("変数名",数値).
-※第2引数：0、行を返します.
-※第2引数：1、値を返します.
+getkey(var,n)：<br/>
+指定した変数の行、または、値を返します <br/>
+getkey("変数名",数値) <br/>
+※第2引数：0、行を返します <br/>
+※第2引数：1、値を返します <br/>
 
-delkey(var)：
-指定した変数を削除します.
-delkey("変数名").
+delkey(var)：<br/>
+指定した変数を削除します <br/>
+delkey("変数名") <br/>
 
-dellines：
-全ての行を削除します.
+dellines：<br/>
+全ての行を削除します <br/>
 
 
 
